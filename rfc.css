@@ -252,6 +252,7 @@ aside, blockquote {
 }
 blockquote {
   background-color: #f9f9f9;
+  font-size: 36px;
   color: #111; /* Arlen: WCAG 2019 */
   border: 1px solid #ddd;
   border-radius: 3px;
@@ -630,6 +631,9 @@ hr.addr {
   }
   td {
     border-top: 1px solid #ddd;
+  }
+  blockquote {
+    font-size: 36px;
   }
 }
 
