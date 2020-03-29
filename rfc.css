@@ -613,7 +613,7 @@ hr.addr {
     overflow: scroll;
   }
   h1 {
-    page-break-before:always
+    page-break-before:always;
   }
   h2, h3, h4, h5, h6 {
     page-break-after: avoid;
@@ -631,9 +631,6 @@ hr.addr {
   }
   td {
     border-top: 1px solid #ddd;
-  }
-  blockquote {
-    font-size: 36px;
   }
 }
 
@@ -1010,6 +1007,7 @@ aside > p {
   h3    { font-size: 1.2em;     padding-top: 1.5em; } /* 1*1.2 */
   h4    { font-size: 1em;       padding-top: 1.5em; }
   h5, h6 { font-size: 1em;      margin: initial; padding: 0.5em 0 0.3em; }
+  blockquote { font-size: 36pt; }
 }
 /* Sourcecode margin in print, when there's no pilcrow */
 @media print {
